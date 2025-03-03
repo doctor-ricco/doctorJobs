@@ -1,5 +1,10 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'tailwindcss';
 
 @source "../views";
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
